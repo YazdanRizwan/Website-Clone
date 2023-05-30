@@ -310,6 +310,7 @@ header {
     padding: 80px 0;
     margin: 50px 0;
     background-color: #183b56;
+    overflow: hidden;
 }
 
 .left-side {
@@ -376,12 +377,17 @@ header {
 
 /* footer */
 .sfooter {
+    width: 100%;
     padding: 20px 0;
     background-color: #91c5f3;
+    overflow: hidden;
 }
 
 .footer-container {
     justify-content: center;
+    gap: 30px;
+}
+.s-icons{
     gap: 30px;
 }
 
