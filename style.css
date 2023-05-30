@@ -122,6 +122,8 @@ ul {
 .main-nav {
     margin-top: 20px;
     justify-content: space-between;
+    position: relative;
+    
 }
 
 .nav-toggle{
@@ -360,13 +362,13 @@ header {
 
 /* subfooter */
 .sub-footer {
-    padding: 100px;
+    padding-block: 80px;
     background-color: #b8bfc5;
 }
 
 .sub-footer-container {
     align-items: flex-start;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 .link-column {
